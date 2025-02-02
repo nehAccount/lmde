@@ -22,6 +22,7 @@ sudo tar -xvf "$builddir"/icons/Colloid.tar.xz -C /usr/share/icons
 # config
 cp -a "$builddir"/config/* "$HOME"/.config
 
+# sudo nala install power-profiles-daemon
 
 echo "Done!"
 
