@@ -5,6 +5,8 @@ builddir=$(pwd)
 
 sudo apt update && sudo apt upgrade -y
 sudo apt install nala -y
+sudo nala install power-profiles-deamon -y
+
 
 
 # ------------------------------------------------------
