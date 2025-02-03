@@ -3,6 +3,10 @@
 #username=$(id -u -n 1000)
 builddir=$(pwd)
 
+sudo apt update && sudo apt upgrade -y
+sudo apt install nala -y
+
+
 # ------------------------------------------------------
 # copy fonts
 # ------------------------------------------------------
