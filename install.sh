@@ -32,8 +32,6 @@ flatpak install flathub io.missioncenter.MissionCenter -y
 # config
 # cp -a "$builddir"/config/* "$HOME"/.config
 
-# sudo nala install power-profiles-daemon
-
 echo "Done!"
 
 
